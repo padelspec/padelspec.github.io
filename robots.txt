@@ -11,5 +11,5 @@ Disallow: /fonts/
 Disallow: /styles/
 Disallow: /js/
 
-Host: www.hausmn.com
-Sitemap: http://www.hausmn.com/sitemap.xml
+Host: www.padelspec.ru
+Sitemap: http://www.padelspec.ru/sitemap.xml
