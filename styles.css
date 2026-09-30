@@ -96,3 +96,32 @@ button,input,textarea{font:inherit}
 @media(max-width:420px){.hero h1{font-size:35px}.hero-features{grid-template-columns:1fr 1fr}.choice-grid{grid-template-columns:1fr}.service-grid{grid-template-columns:1fr 1fr}.service-card img{height:100px}.mini-products{grid-template-columns:1fr 1fr}}
 .blcolor{color: #041327}
 .whcolor{color: #ffffff}
+/* Опыт работ */
+.experience{background:var(--bg)}
+.experience-head{margin-bottom:30px}
+.experience-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+.experience-card{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:24px;min-height:190px;display:flex;flex-direction:column;justify-content:space-between;transition:.2s}
+.experience-card:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
+.experience-card h3{margin:0;font-size:23px}
+.experience-card p{margin:14px 0 0;font-weight:800;font-size:15px}
+.experience-count{display:flex;align-items:baseline;gap:9px;margin-top:20px}
+.experience-count .counter{font-size:54px;line-height:1;font-weight:950;letter-spacing:-2px;color:var(--accent-2)}
+.experience-count small{font-size:14px;color:var(--muted);font-weight:800}
+.works{background:#e58532}
+.works-carousel{position:relative;overflow:hidden;border-radius:18px;border:1px solid var(--line);background:var(--navy)}
+.works-track{display:flex;transition:transform .55s cubic-bezier(.22,.61,.36,1);will-change:transform}
+.work-slide{min-width:100%;position:relative;aspect-ratio:16/8;overflow:hidden}
+.work-slide img{width:100%;height:100%;display:block;object-fit:cover}
+.work-slide:after{content:"";position:absolute;inset:35% 0 0;background:linear-gradient(transparent,rgba(3,16,31,.9));pointer-events:none}
+.work-caption{position:absolute;z-index:2;left:28px;right:28px;bottom:26px;color:#fff;display:flex;flex-direction:column;gap:5px}
+.work-caption b{font-size:clamp(20px,3vw,30px)}
+.work-caption span{font-size:14px;color:#dce7f2}
+.carousel-controls{display:flex;gap:8px}
+.carousel-btn{width:44px;height:44px;border:1px solid var(--line);border-radius:10px;background:var(--surface);color:var(--text);font-size:22px;cursor:pointer;transition:.2s}
+.carousel-btn:hover{background:var(--accent);color:#0b1d31;border-color:var(--accent)}
+.carousel-dots{position:absolute;z-index:4;left:50%;bottom:16px;transform:translateX(-50%);display:flex;gap:7px}
+.carousel-dot{width:8px;height:8px;padding:0;border:0;border-radius:50%;background:rgba(255,255,255,.5);cursor:pointer;transition:.2s}
+.carousel-dot.active{width:24px;border-radius:8px;background:var(--accent)}
+@media(max-width:1000px){.experience-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:720px){.experience-grid{grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:8px}.experience-card{padding:17px;min-height:160px}.experience-card h3{font-size:19px}.experience-count{margin-top:14px}.experience-count .counter{font-size:43px}.experience-count small{font-size:12px}.experience-card p{font-size:13px;margin-top:10px}.work-slide{aspect-ratio:4/3}.work-caption{left:17px;right:17px;bottom:38px}.carousel-controls{align-self:stretch}}
+@media(max-width:420px){.experience-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.experience-card{min-height:145px;padding:14px}.experience-count .counter{font-size:38px}.carousel-btn{width:40px;height:40px}}
