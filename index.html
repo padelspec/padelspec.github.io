@@ -22,7 +22,7 @@
       <div class="header-actions">
         <button class="theme-toggle" id="themeToggle" type="button" aria-label="Переключить тему">☼</button>
         <a class="phone" href="tel:+79672150986">+7 967-215-09-86</a>
-        <button class="btn btn-primary open-modal" type="button">Оставить заявку</button>
+        <a href="#contacts"><button class="btn btn-primary open-modal" type="button">контакты</button></a>
         <button class="burger" id="burger" type="button" aria-label="Меню"><span></span><span></span><span></span></button>
       </div>
     </header>
@@ -35,8 +35,8 @@
           <h1>ПАДЕЛ-КОРТЫ<br><em>РЕМОНТ, ОБСЛУЖИВАНИЕ</em><br>ПО ВСЕЙ РОССИИ</h1>
           <p>Проектирование, поставка, монтаж, оснащение и обслуживание падел-кортов.</p>
           <div class="hero-actions">
-            <button class="btn btn-primary open-modal">Получить расчёт <span>→</span></button>
-            <a class="btn btn-outline" href="#projects">Смотреть проекты</a>
+            <a href="#contacts"><button class="btn btn-primary open-modal">Получить расчёт <span>→</span></button></a>
+            <a class="btn btn-outline" href="#projects"><span class="blcolor">Смотреть проекты</span></a>
           </div>
           <div class="hero-features">
             <div><b>◈</b><span>ПОД КЛЮЧ<small>Полный цикл работ</small></span></div>
@@ -49,48 +49,10 @@
         <button class="video-card" type="button" id="videoBtn"><span class="play">▶</span><span>ПОСМОТРЕТЬ<br><small>КАК МЫ РАБОТАЕМ</small></span></button>
       </section>
 
-      <section class="calculator section" id="calculator">
-        <div class="container calc-grid">
-          <div class="section-intro">
-            <span class="kicker">ШАГ 1 ИЗ 3</span>
-            <h2>РАССЧИТАЕМ<br>ВАШ ПРОЕКТ</h2>
-            <p>Ответьте на несколько вопросов — мы подготовим решение под вашу задачу.</p>
-            <div class="racket-deco">◒</div>
-          </div>
-          <div class="calc-card">
-            <div class="progress"><i id="progressBar"></i></div>
-            <div class="calc-step active" data-step="1">
-              <h3>1. Что вам необходимо?</h3>
-              <div class="choice-grid">
-                <button class="choice selected">⌁ <span>Построить новый<br>падел-корт</span></button>
-                <button class="choice">□ <span>Установить<br>падел-корт</span></button>
-                <button class="choice">◎ <span>Обслужить<br>существующий корт</span></button>
-                <button class="choice">◌ <span>Оснастить<br>падел-клуб</span></button>
-                <button class="choice">◍ <span>Благоустроить<br>территорию</span></button>
-                <button class="choice">✣ <span>Демонтаж<br>корта</span></button>
-                <button class="choice">⌁ <span>Другое</span></button>
-              </div>
-            </div>
-            <div class="calc-step" data-step="2">
-              <h3>2. Где планируется проект?</h3>
-              <div class="choice-grid">
-                <button class="choice selected">Москва</button><button class="choice">Московская область</button>
-                <button class="choice">Сочи</button><button class="choice">Санкт-Петербург</button>
-                <button class="choice">Другой регион</button>
-              </div>
-            </div>
-            <div class="calc-step" data-step="3">
-              <h3>3. Сколько кортов планируется?</h3>
-              <div class="choice-grid"><button class="choice selected">1 корт</button><button class="choice">2–3 корта</button><button class="choice">4+ корта</button></div>
-            </div>
-            <button class="btn btn-primary next-step" type="button">Далее <span>→</span></button>
-          </div>
-        </div>
-      </section>
 
-      <section class="section" id="services">
+      <section class="section" style="background: linear-gradient(rgba(253, 107, 20, 0.78),rgba(160, 69, 15, 0.92));" id="services">
         <div class="container">
-          <div class="section-head"><div><span class="kicker">ВСЁ ДЛЯ ПАДЕЛА</span><h2>НАШИ УСЛУГИ</h2><p>Все для падела — в одной компании</p></div><a href="#equipment" class="text-link">Смотреть все услуги →</a></div>
+          <div class="section-head"><div><span class="kicker">ВСЁ ДЛЯ ПАДЕЛА</span><h2>НАШИ УСЛУГИ</h2><p style="color: #ffffff;">Все для падела — в одной компании</p></div></div>
           <div class="service-grid">
             <article class="service-card"><img src="assets/service-courts.jpg"><h3>Падел-корты<br>под ключ</h3></article>
             <article class="service-card"><img src="assets/service-design.jpg"><h3>Проектирование</h3></article>
@@ -113,7 +75,7 @@
 
       <section class="process" id="projects">
         <div class="process-bg"></div><div class="container">
-          <div class="section-head process-head"><div><span class="kicker">ОТ ИДЕИ ДО ЗАПУСКА</span><h2>КОМПЛЕКСНАЯ РЕАЛИЗАЦИЯ<br><em>ПАДЕЛ-КЛУБА</em></h2></div><button class="btn btn-primary open-modal">Рассчитать проект →</button></div>
+          <div class="section-head process-head"><div><span class="kicker">ОТ ИДЕИ ДО ЗАПУСКА</span><h2>КОМПЛЕКСНАЯ РЕАЛИЗАЦИЯ<br><em>ПАДЕЛ-КЛУБА</em></h2></div><a href="#contacts"><button class="btn btn-primary">Рассчитать проект →</button></a></div>
           <div class="timeline">
             <div><b>01</b><span>Проектирование</span></div><div><b>02</b><span>Подготовка площадки</span></div><div><b>03</b><span>Поставка оборудования</span></div><div><b>04</b><span>Монтаж</span></div>
             <div><b>05</b><span>Освещение</span></div><div><b>06</b><span>Благоустройство</span></div><div><b>07</b><span>Запуск</span></div><div><b>08</b><span>Обслуживание</span></div>
@@ -123,7 +85,7 @@
 
       <section class="section maintenance" id="maintenance">
         <div class="container two-col">
-          <div><span class="kicker">ПОСЛЕ ЗАПУСКА</span><h2>КОРТ ПОСТРОЕН.<br>НО ЕГО НЕ БРОСАЕМ.</h2><p>Регулярное обслуживание и ремонт падел-кортов после установки.</p><button class="btn btn-primary open-modal">Заказать обслуживание →</button></div>
+          <div><span class="kicker" style="color: chocolate;">ПОСЛЕ ЗАПУСКА</span><h2>КОРТ ПОСТРОЕН.<br>НО ЕГО НЕ БРОСАЕМ.</h2><p>Регулярное обслуживание и ремонт падел-кортов после установки.</p><a href="#contacts"><button class="btn btn-primary">Заказать обслуживание →</button></a></div>
           <div class="maintenance-grid">
             <div><img src="assets/maintenance.jpg"><b>Ремонт и обслуживание</b></div>
             <div><img src="assets/service-courts.jpg"><b>Уборка корта</b></div>
@@ -135,7 +97,7 @@
 
       <section class="section equipment" id="equipment">
         <div class="container two-col equipment-row">
-          <div><span class="kicker">МАГАЗИН И ОСНАЩЕНИЕ</span><h2>СНАБДИМ ПАДЕЛ-КЛУБ<br>ВСЕМ НЕОБХОДИМЫМ</h2><p>Ракетки, мячи, сетки, освещение, мебель, вендинг и другое.</p><a href="#contacts" class="btn btn-outline">Смотреть каталог →</a></div>
+          <div><span class="kicker">МАГАЗИН И ОСНАЩЕНИЕ</span><h2>СНАБДИМ ПАДЕЛ-КЛУБ<br>ВСЕМ НЕОБХОДИМЫМ</h2><p style="color: #ffffff;">Ракетки, мячи, сетки, освещение, мебель, вендинг и другое.</p><a href="#contacts" class="btn btn-outline">Заказать каталог →</a></div>
           <div class="mini-products">
             <div><img src="assets/service-rackets.jpg"><span>Ракетки</span></div><div><img src="assets/service-balls.jpg"><span>Мячи</span></div><div><img src="assets/service-net.jpg"><span>Сетки</span></div><div><img src="assets/service-storage.jpg"><span>Хранение</span></div><div><img src="assets/service-vending.jpg"><span>Вендинг</span></div><div><img src="assets/service-landscape.jpg"><span>Мебель</span></div>
           </div>
@@ -144,7 +106,7 @@
 
       <section class="section about" id="about">
         <div class="container about-grid">
-          <div><span class="kicker">ПОЧЕМУ ПАДЕЛ СПЕЦ</span><h2>ПРОФЕССИОНАЛЬНО.<br><em>КОМПЛЕКСНО.</em><br>НАДЁЖНО.</h2></div>
+          <div><span class="kicker">ПОЧЕМУ ПАДЕЛ СПЕЦ СЕРВИС</span><h2>ПРОФЕССИОНАЛЬНО.<br><em>КОМПЛЕКСНО.</em><br>НАДЁЖНО.</h2></div>
           <div class="benefits"><div><b>01</b><h3>Профессионализм</h3><p>Опытная команда и понятный процесс на каждом этапе.</p></div><div><b>02</b><h3>Комплексный подход</h3><p>Все задачи по объекту — в одной компании.</p></div><div><b>03</b><h3>Качество и гарантия</h3><p>Подбираем материалы и оборудование под задачу.</p></div><div><b>04</b><h3>Поддержка 24/7</h3><p>Остаёмся на связи после запуска объекта.</p></div></div>
         </div>
       </section>
@@ -154,24 +116,19 @@
           <details open><summary>Сколько стоит установить падел-корт?</summary><p>Стоимость зависит от количества кортов, площадки, покрытия, освещения, доставки и выбранной комплектации. Оставьте заявку — подготовим расчёт.</p></details>
           <details><summary>Вы работаете только в Москве и Сочи?</summary><p>Нет. Проектирование, поставка и монтаж организуются по регионам России.</p></details>
           <details><summary>Можно заказать только монтаж?</summary><p>Да, состав работ можно сформировать под конкретную задачу.</p></details>
-          <details><summary>Можно заказать только обслуживание?</summary><p>Да. Доступны регулярные и сезонные работы.</p></details>
+          <details><summary>Можно заказать только обслуживание?</summary><p>Да, можно</p></details>
         </div></div>
       </section>
 
       <section class="cta" id="contacts">
-        <div class="container cta-inner"><span class="kicker">ГОТОВЫ ОБСУДИТЬ ВАШ ПРОЕКТ?</span><h2>Оставьте заявку — свяжемся<br>с вами в ближайшее время</h2><button class="btn btn-primary open-modal">Оставить заявку</button><a class="cta-phone" href="tel:+79672150986">+7 967-215-09-86</a><div class="socials"><a class="socials" href="t.me/padelspec"><span>Telegram</span></a><a class="socials" href="mailto:padelspec@mail.ru"><span>padelspec@mail.ru</span></a></div></div>
+        <div class="container cta-inner"><span class="kicker">ГОТОВЫ ОБСУДИТЬ ВАШ ПРОЕКТ?</span><h2>Оставьте заявку <br>в ближайшее время</h2><button class="btn btn-primary">Принимаем заявки по телефону или email:</button><a class="cta-phone" href="tel:+79672150986">+7 967-215-09-86</a><div class="socials"><a class="socials" href="t.me/padelspec"><span>Telegram</span></a><a class="socials" href="mailto:padelspec@mail.ru"><span>padelspec@mail.ru</span></a></div></div>
       </section>
     </main>
 
-    <footer class="footer"><div class="container footer-inner"><div class="brand"><span class="brand-mark">P</span><span><b>ПАДЕЛ СПЕЦ</b><small>СЕРВИС</small></span></div><div>© 2026 ПАДЕЛ СПЕЦ СЕРВИС</div><div><a href="#top">Наверх ↑</a></div></div></footer>
+    <footer class="footer"><div class="container footer-inner"><div class="brand"><span class="brand-mark">P</span><span><b>ПАДЕЛ СПЕЦ</b><small>СЕРВИС</small></span></div><div>© 2026 ПАДЕЛ СПЕЦ СЕРВИС</div><div><a style="color: #ffffff;" href="#top">Наверх ↑</a></div></div></footer>
   </div>
 
-  <div class="modal" id="modal" aria-hidden="true">
-    <div class="modal-box"><button class="modal-close" id="modalClose">×</button><span class="kicker">ПАДЕЛ СПЕЦ СЕРВИС</span><h2>ОСТАВИТЬ ЗАЯВКУ</h2><p>Расскажите о проекте — менеджер свяжется с вами.</p>
-      <form id="leadForm"><label>Имя<input required name="name" placeholder="Ваше имя"></label><label>Телефон<input required name="phone" placeholder="+7 (___) ___-__-__"></label><label>Комментарий<textarea name="comment" placeholder="Что планируете построить?"></textarea></label><button class="btn btn-primary" type="submit">Отправить заявку →</button></form>
-      <div class="success" id="success">Спасибо! Заявка подготовлена. Мы свяжемся с вами.</div>
-    </div>
-  </div>
+
   <script src="script.js"></script>
 </body>
 </html>
