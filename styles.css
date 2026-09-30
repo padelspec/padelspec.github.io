@@ -8,7 +8,9 @@
   --line:#24415e;--shadow:0 18px 50px rgba(0,0,0,.28);
 }
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,Arial,sans-serif;line-height:1.35}
-button,input,textarea{font:inherit}.container{width:min(1180px,calc(100% - 48px));margin:auto}.site-shell{overflow:hidden}
+button,input,textarea{font:inherit}
+.container{width:min(1180px,calc(100% - 48px));margin:auto}
+.site-shell{overflow:hidden}
 .header{height:76px;background:var(--surface);display:flex;align-items:center;gap:26px;padding:0 28px;position:sticky;top:0;z-index:50;border-bottom:1px solid var(--line)}
 .brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--text);min-width:190px}
 .brand-mark{display:grid;place-items:center;width:43px;height:43px;background: url("assets/pss-logo.png") center/cover;}
@@ -58,11 +60,11 @@ button,input,textarea{font:inherit}.container{width:min(1180px,calc(100% - 48px)
 .choice span{font-size:14px;margin-left:6px;font-weight: 600}
 .next-step{margin-top:18px}
 .section-head{display:flex;justify-content:space-between;align-items:end;margin-bottom:26px}
-.service-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}
+.service-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
 .service-card{background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden;transition:.2s}
 .service-card:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
-.service-card img{width:100%;height:105px;object-fit:cover;display:block}
-.service-card h3{font-size:12px;margin:11px 12px 15px;text-transform:uppercase}
+.service-card img{width:100%;height:150px;object-fit:cover;display:block}
+.service-card h3{font-size:14px;margin:11px 12px 15px;text-transform:uppercase}
 .process{position:relative;padding:72px 0;color:#fff;background:#09294a}
 .process-bg{position:absolute;inset:0;background:linear-gradient(rgba(13, 80, 148, 0.78),rgba(4,24,44,.92))}
 .process>.container{position:relative}
