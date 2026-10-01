@@ -112,7 +112,7 @@ button,input,textarea{font:inherit}
 .works-track{display:flex;transition:transform .55s cubic-bezier(.22,.61,.36,1);will-change:transform}
 .work-slide{min-width:100%;position:relative;aspect-ratio:16/8;overflow:hidden}
 .work-slide img{width:100%;height:100%;display:block;object-fit:cover}
-.work-slide:after{content:"";position:absolute;inset:35% 0 0;background:linear-gradient(transparent,rgba(3,16,31,.9));pointer-events:none}
+.work-slide:after{content:"";position:absolute;inset:35% 0 0;background:linear-gradient(transparent,rgba(3,16,31,.2));pointer-events:none}
 .work-caption{position:absolute;z-index:2;left:28px;right:28px;bottom:26px;color:#fff;display:flex;flex-direction:column;gap:5px}
 .work-caption b{font-size:clamp(20px,3vw,30px)}
 .work-caption span{font-size:14px;color:#dce7f2}
