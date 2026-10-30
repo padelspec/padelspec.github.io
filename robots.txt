@@ -12,4 +12,4 @@ Disallow: /styles/
 Disallow: /js/
 
 Host: www.padelspec.ru
-Sitemap: http://www.padelspec.ru/sitemap.xml
+Sitemap: https://www.padelspec.ru/sitemap.xml
